@@ -1,1 +1,1 @@
-https://session-vec-spark.vercel.app
+https://vector-database-visualization.vercel.app
