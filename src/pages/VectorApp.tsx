@@ -41,7 +41,7 @@ const VectorApp = () => {
                 <Database className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold">VectorDB Browser</h1>
+                <h1 className="text-2xl font-bold">Vector Database Visualization</h1>
                 <p className="text-sm text-muted-foreground">
                   Client-side vector database with similarity search
                 </p>
