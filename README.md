@@ -1,18 +1,9 @@
-https://vector-database-visualization.vercel.app
-
-
-Of course! Based on the provided images, here is a comprehensive and well-structured `README.md` text for the GitHub repository.
-
----
-
-# VectorDB Browser
+# Vector Database Visualizer
 
 A client-side vector database with semantic search, built to run entirely in your browser. Store, search, and visualize text embeddings with zero setup and no backend required.
 
-**Live Demo: [Launch VectorDB Browser](https://vector-database-visualization.vercel.app)** 
+**Live Demo: [Launch Vector Database Visualizer](https://vector-database-visualization.vercel.app)** 
 
-
----
 
 ## ✨ Features
 
@@ -30,12 +21,9 @@ A client-side vector database with semantic search, built to run entirely in you
 | **Vector Dimensions** | 384 (Fixed-length) |
 | **Vectorization Algorithm** | Deterministic Hash |
 | **Search Method** | Cosine Similarity |
-| **Storage** | Browser `sessionStorage` |
 | **Framework** | React + TypeScript |
 | **Build Tool** | Vite |
 | **Data Format** | JSON |
-
-## 🚀 Getting Started
 
 ## 📖 How to Use
 
@@ -47,7 +35,7 @@ A client-side vector database with semantic search, built to run entirely in you
 
 ```
 src/
-├── components/          # React components (Search, DatabaseControls, etc.)
+├── components/         # React components (Search, DatabaseControls, etc.)
 ├── hooks/              # Custom React hooks (e.g., for vector operations)
 ├── utils/              # Core logic (vectorization, similarity search)
 ├── types/              # TypeScript type definitions
@@ -56,17 +44,3 @@ src/
 ## 👨‍💻 Author
 
 **Octavian Mihai**
-
-- Portfolio: [your-portfolio-link]
-- LinkedIn: [Your LinkedIn Profile]
-
----
-
-## 💡 Motivation
-
-VectorDB Browser was created to make vector databases and semantic search accessible for:
-- **Prototyping** ideas quickly without backend infrastructure.
-- **Learning** how embeddings and similarity search work.
-- **Privacy-conscious applications** where data must remain on the client.
-
-**Ready to explore?** [Try the Live Demo!](https://your-demo-link-here.com)
