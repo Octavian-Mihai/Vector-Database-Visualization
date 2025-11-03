@@ -46,7 +46,7 @@ const Index = () => {
   const features = [
     {
       icon: Database,
-      title: "Browser-Based Vector DB",
+      title: "Browser-Based Vector Dabatase",
       description: "Store and query text embeddings entirely in your browser with zero setup"
     },
     {
@@ -77,7 +77,7 @@ const Index = () => {
               <Database className="h-8 w-8 text-white" />
             </div>
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
-              VectorDB Browser
+              Vector Database Visualization
             </h1>
             <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
               A client-side vector database with semantic search
