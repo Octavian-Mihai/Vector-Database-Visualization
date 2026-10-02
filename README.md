@@ -6,6 +6,10 @@ A client-side vector database with semantic search, built to run entirely in you
 
 
 
+## Screenshots
+
+![Vector database with semantic search results](docs/screenshots/vdb.png)
+
 ## Architecture
 
 ```mermaid
