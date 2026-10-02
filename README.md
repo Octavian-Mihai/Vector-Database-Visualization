@@ -1,11 +1,38 @@
 # Vector Database Visualizer
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
-
 A client-side vector database with semantic search, built to run entirely in your browser. Store, search, and visualize text embeddings with zero setup and no backend required.
 
 **Live Demo: [Launch Vector Database Visualizer](https://vector-database-visualization.vercel.app)** 
 
+
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Index[pages/Index] --> VA[pages/VectorApp]
+    subgraph Components
+        VI[VectorInput]
+        SBox[SearchBox]
+        RT[ResultsTable]
+        DC[DataControls<br/>import / export / clear]
+    end
+    subgraph Utils["utils/"]
+        Emb[embeddings.ts<br/>deterministic hash → 384-d]
+        Sim[similarity.ts<br/>cosine ranking]
+        Stor[storage.ts]
+    end
+    LS[(Browser storage)]
+
+    VA --> Components
+    VI -->|text| Emb --> Stor
+    SBox -->|query| Emb --> Sim
+    Stor --> Sim --> RT
+    Stor <--> LS
+    DC <--> Stor
+```
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ## ✨ Features
 
