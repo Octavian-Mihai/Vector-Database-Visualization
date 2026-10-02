@@ -1,5 +1,7 @@
 # Vector Database Visualizer
 
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
+
 A client-side vector database with semantic search, built to run entirely in your browser. Store, search, and visualize text embeddings with zero setup and no backend required.
 
 **Live Demo: [Launch Vector Database Visualizer](https://vector-database-visualization.vercel.app)** 
